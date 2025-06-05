@@ -9,7 +9,7 @@ import dogPawL3 from '../assets/dogPawL3.png'
 const PetGroomingPromo = () => {
     return (
         <div
-            className="w-full max-h-[100vh] md:max-h-[90vh] relative bg-cover bg-center bg-no-repeat"
+            className="w-full max-h-[100vh] md:max-h-[100vh] relative bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${GroomingPromo})`, aspectRatio: '16/9' }}
         >
              <img src={dogPawL1} className='absolute top-7 hidden lg:block left-8' alt="dogPawL1" />
