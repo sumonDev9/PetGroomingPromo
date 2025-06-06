@@ -6,6 +6,7 @@ import OurProcesse from '../components/OurProcesse';
 import CourseModules from '../components/CourseModules';
 import CourseMethodology from '../components/CourseMethodology';
 import Happygraduates from '../components/Happygraduates';
+import FaqPetWelcome from '../components/FaqPetWelcome';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
           <CourseModules />
           <CourseMethodology />
           <Happygraduates />
+          <FaqPetWelcome />
         </div>
     );
 };
