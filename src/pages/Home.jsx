@@ -4,6 +4,7 @@ import WelcomeBanner from '../components/WelcomeBanner';
 import GroomingCourseInfo from '../components/GroomingCourseInfo';
 import OurProcesse from '../components/OurProcesse';
 import CourseModules from '../components/CourseModules';
+import CourseMethodology from '../components/CourseMethodology';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
           <GroomingCourseInfo />
           <OurProcesse />
           <CourseModules />
+          <CourseMethodology />
         </div>
     );
 };
