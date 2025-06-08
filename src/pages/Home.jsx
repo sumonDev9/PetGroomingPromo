@@ -8,6 +8,7 @@ import CourseMethodology from '../components/CourseMethodology';
 import Happygraduates from '../components/Happygraduates';
 import FaqPetWelcome from '../components/FaqPetWelcome';
 import EarningOpportunityBanner from '../components/EarningOpportunityBanner';
+import CertificatePerson from '../components/CertificatePerson';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
           <CourseMethodology />
           <Happygraduates />
           <FaqPetWelcome />
+          <CertificatePerson />
           <EarningOpportunityBanner />
         </div>
     );
