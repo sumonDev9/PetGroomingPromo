@@ -8,14 +8,14 @@ import GroupBook from '../assets/GroupBook.png'
 
 const CourseOfferings = () => {
     return (
-        <div className='bg-gradient-to-b from-[#0047AB] to-[#73C2FB] py-14 mt-0 min-h-screen'>
+        <div className='bg-gradient-to-b from-[#0047AB] to-[#73C2FB] pt-14 pb-24 mt-0 min-h-screen'>
             {/* heading */}
-           <h1 className='pet-text text-white text-4xl  max-w-[850px] mx-auto text-center'>
+           <h1 className='pet-text text-white text-xl lg:text-4xl  max-w-[850px] mx-auto text-center'>
             We offer multiple course options based on skill levels. Our course fees vary based on the program selected.
            </h1>
 
             {/* content */}
-            <div className='flex justify-center mt-20'>
+            <div className=' justify-center hidden lg:flex mt-20'>
                 <div className='relative'>
                      <div className=' bg-[#D6F3F9] relative z-30 left-10 py-6 px-8 w-68 rounded-full'>
                         <p className='text-[#000000] pet-text text-xl font-bold'>Advanced <br />Grooming Course</p>
@@ -70,6 +70,61 @@ const CourseOfferings = () => {
                         <p className='text-lg font-bold text-center text-white'>60 + 30 <br />Days</p>
                     </div>
                 </div>
+            </div>
+
+
+            {/* phone deivec */}
+            <div className='lg:hidden flex flex-col mt-3 space-y-4'>
+                <div className='w-[250px] h-[250px] md:w-[300px] md:h-[300px] rounded-full mx-auto bg-white flex justify-center items-center flex-col space-y-4'>
+                    <img src={medal} className='mx-auto w-16 h-16 md:w-20 md:h-20' alt="medal" />
+                    <h1 className='text-2xl md:text-3xl font-bold text-black mx-auto text-center'>Course Duration & Packages </h1>
+                </div>
+                {/* Basic Grooming Course */}
+                <div className='relative'>
+                    <div className='w-68 md:w-[400px] bg-white mx-auto py-4 px-4 rounded-full'>
+                        <h1 className='text-xl md:text-4xl font-semibold'>Basic Grooming Course</h1>
+                    </div>
+                    <div className='absolute -top-10 right-10 md:right-32 bg-[#696060] text-white w-16 h-16 md:w-24 md:h-24 rounded-full border border-white p-1 flex justify-center items-center'>
+                        <p className='text-center font-medium text-white md:text-xl'>30 <br />Days</p>
+                    </div>
+                   <div className='absolute py-1 px-3 z-50 top-14 left-36 md:left-80 md:top-24 bg-white rounded-full'>
+                        <span className='text-red-500 text-2xl md:text-3xl font-bold'>49000</span>
+                    </div>
+                    <div className='absolute -bottom-18 left-10 md:left-40'>
+                        <img src={GroupBook} className='w-16' alt="paw200" />
+                    </div>
+                </div>
+                {/* Professional Certification Course */}
+                <div className='relative mt-20'>
+                    <div className='w-68 md:w-[400px] bg-white mx-auto py-4 px-4 rounded-full'>
+                        <h1 className='text-xl md:text-4xl font-semibold'>Professional Certification Course</h1>
+                    </div>
+                    <div className='absolute -top-10 right-10 md:right-32 bg-[#696060] text-white w-16 h-16 md:w-24 md:h-24 rounded-full border border-white p-1 flex justify-center items-center'>
+                        <p className='text-center font-medium text-white text-sm md:text-xl'>60 + 30 <br />Days</p>
+                    </div>
+                   <div className='absolute py-1 px-3 z-50 top-14 left-36 md:left-80 md:top-26 bg-white rounded-full'>
+                        <span className='text-red-500 text-2xl md:text-3xl font-bold'>179000</span>
+                    </div>
+                      <div className='absolute -bottom-18 left-10  md:left-40'>
+                        <img src={kackhi} className='w-18 ' alt="paw200" />
+                    </div>
+                </div>
+                {/* Advanced Grooming Course */}
+                <div className='relative mt-20'>
+                    <div className='w-68 md:w-[400px] bg-white mx-auto py-4 px-4 rounded-full'>
+                        <h1 className='text-xl md:text-4xl font-semibold'>Advanced Grooming Course</h1>
+                    </div>
+                    <div className='absolute -top-10 right-10 md:right-32 bg-[#696060] text-white w-20 h-20 rounded-full border border-white p-1 flex justify-center items-center  md:w-24 md:h-24 '>
+                        <p className='text-center font-medium text-white md:text-xl'>60 <br />Days</p>
+                    </div>
+                   <div className='absolute py-1 px-3 z-50 top-14 left-36 md:left-80 md:top-26 bg-white rounded-full'>
+                        <span className='text-red-500 text-2xl md:text-3xl font-bold'>149000</span>
+                    </div>
+                        <div className='absolute -bottom-18 left-10 md:left-40'>
+                        <img src={paw200} className='w-16' alt="paw200" />
+                    </div>
+                </div>
+
             </div>
         </div>
     );
