@@ -22,8 +22,8 @@ const Home = () => {
           <CourseModules />
           <CourseMethodology />
           <CourseOfferings />
-          {/* <CareerOpportunitySection /> */}
-          {/* <Happygraduates />
+          {/* <CareerOpportunitySection />
+          <Happygraduates />
           <FaqPetWelcome />
           <CertificatePerson />
           <EarningOpportunityBanner /> */}
