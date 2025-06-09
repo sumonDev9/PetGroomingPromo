@@ -8,7 +8,7 @@ import GroupBook from '../assets/GroupBook.png'
 
 const CourseOfferings = () => {
     return (
-        <div className='bg-gradient-to-b from-[#0047AB] to-[#73C2FB] pt-14 pb-24 mt-0 min-h-screen'>
+        <div className='bg-gradient-to-b from-[#0047AB] to-[#73C2FB] pt-14 pb-24 mb-10 min-h-screen'>
             {/* heading */}
            <h1 className='pet-text text-white text-xl lg:text-4xl  max-w-[850px] mx-auto text-center'>
             We offer multiple course options based on skill levels. Our course fees vary based on the program selected.
