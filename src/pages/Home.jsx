@@ -14,7 +14,7 @@ import CareerOpportunitySection from '../components/CareerOpportunitySection';
 
 const Home = () => {
     return (
-        <div>
+        <div className='overflow-x-hidden'>
           <PetGroomingPromo />
           <WelcomeBanner />
           <GroomingCourseInfo />
