@@ -16,17 +16,17 @@ const Home = () => {
     return (
         <div className='overflow-x-hidden'>
           <PetGroomingPromo />
-          <WelcomeBanner />
+         <WelcomeBanner />
           <GroomingCourseInfo />
-          <OurProcesse />
-          <CourseModules />
-          <CourseMethodology />
-          <CourseOfferings />
+           <OurProcesse />
+        <CourseModules />
+            <CourseMethodology />
+         <CourseOfferings />
           <CareerOpportunitySection />
           <Happygraduates />
           <FaqPetWelcome />
-          <CertificatePerson />
-          <EarningOpportunityBanner />
+        <CertificatePerson />
+          <EarningOpportunityBanner />  
         </div>
     );
 };
